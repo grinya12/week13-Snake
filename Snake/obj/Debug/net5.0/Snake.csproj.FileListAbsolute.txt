@@ -1,0 +1,15 @@
+/Users/GRI$$$HA/Projects/Snake/Snake/bin/Debug/net5.0/Snake.deps.json
+/Users/GRI$$$HA/Projects/Snake/Snake/bin/Debug/net5.0/Snake.runtimeconfig.json
+/Users/GRI$$$HA/Projects/Snake/Snake/bin/Debug/net5.0/Snake.runtimeconfig.dev.json
+/Users/GRI$$$HA/Projects/Snake/Snake/bin/Debug/net5.0/Snake.dll
+/Users/GRI$$$HA/Projects/Snake/Snake/bin/Debug/net5.0/ref/Snake.dll
+/Users/GRI$$$HA/Projects/Snake/Snake/bin/Debug/net5.0/Snake.pdb
+/Users/GRI$$$HA/Projects/Snake/Snake/obj/Debug/net5.0/Snake.csproj.AssemblyReference.cache
+/Users/GRI$$$HA/Projects/Snake/Snake/obj/Debug/net5.0/Snake.GeneratedMSBuildEditorConfig.editorconfig
+/Users/GRI$$$HA/Projects/Snake/Snake/obj/Debug/net5.0/Snake.AssemblyInfoInputs.cache
+/Users/GRI$$$HA/Projects/Snake/Snake/obj/Debug/net5.0/Snake.AssemblyInfo.cs
+/Users/GRI$$$HA/Projects/Snake/Snake/obj/Debug/net5.0/Snake.csproj.CoreCompileInputs.cache
+/Users/GRI$$$HA/Projects/Snake/Snake/obj/Debug/net5.0/Snake.dll
+/Users/GRI$$$HA/Projects/Snake/Snake/obj/Debug/net5.0/ref/Snake.dll
+/Users/GRI$$$HA/Projects/Snake/Snake/obj/Debug/net5.0/Snake.pdb
+/Users/GRI$$$HA/Projects/Snake/Snake/obj/Debug/net5.0/Snake.genruntimeconfig.cache
