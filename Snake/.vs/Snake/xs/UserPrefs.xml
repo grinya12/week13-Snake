@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{D3DB6A7D-EADF-469B-B030-C41380F683FE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HorizontalLine.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Figure.cs">
     <Files>
-      <File FileName="Program.cs" Line="19" Column="1" />
+      <File FileName="Program.cs" Line="16" Column="1" />
       <File FileName="Point.cs" Line="6" Column="1" />
-      <File FileName="HorizontalLine.cs" Line="1" Column="1" />
+      <File FileName="HorizontalLine.cs" Line="16" Column="43" />
+      <File FileName="VerticalLine.cs" Line="26" Column="14" />
+      <File FileName="Figure.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Snake" expanded="True">
             <Node name="Snake" expanded="True">
-              <Node name="HorizontalLine.cs" selected="True" />
+              <Node name="Figure.cs" selected="True" />
             </Node>
           </Node>
         </State>
