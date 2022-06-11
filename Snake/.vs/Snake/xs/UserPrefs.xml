@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{D3DB6A7D-EADF-469B-B030-C41380F683FE}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Point.cs">
     <Files>
-      <File FileName="Program.cs" Line="19" Column="23" />
-      <File FileName="Point.cs" Line="19" Column="1" />
+      <File FileName="Program.cs" Line="19" Column="1" />
+      <File FileName="Point.cs" Line="19" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
