@@ -16,9 +16,9 @@ namespace Snake
 
 			// Отрисовка рамочки
 			HorizontalLine upLine = new HorizontalLine(0, 78, 0, '+');
-			HorizontalLine downLine = new HorizontalLine(0, 78, 24, '+');
-			VerticalLine leftLine = new VerticalLine(0, 24, 0, '+');
-			VerticalLine rightLine = new VerticalLine(0, 24, 4, '+');
+			HorizontalLine downLine = new HorizontalLine(0, 78, 23, '+');
+			VerticalLine leftLine = new VerticalLine(0, 23, 0, '+');
+			VerticalLine rightLine = new VerticalLine(0, 23, 78, '+');
 			upLine.Drow();
 			downLine.Drow();
 			leftLine.Drow();
@@ -27,7 +27,8 @@ namespace Snake
 
 			// Отрисовка точек			
 			Point p = new Point(4, 5, '*');
-            p.Draw();
+			Snake snake = new Snake(p, 8, Direction.RIGHT);
+
 		}
     }
 }
