@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace Snake
 {
     class Point
@@ -41,7 +40,7 @@ namespace Snake
             {
                 x = x - offset;
             }
-            else if (direction == Direction.UP)
+            else if(direction == Direction.UP)
             {
                 y = y + offset;
             }
@@ -55,6 +54,12 @@ namespace Snake
         {
             Console.SetCursorPosition(x, y);
             Console.Write(sym);
+        }
+
+        public void Clear()
+        {
+            sym = ' ';
+            Draw();
         }
 
         public override string ToString()
