@@ -1,21 +1,21 @@
 ﻿<Properties StartupConfiguration="{D3DB6A7D-EADF-469B-B030-C41380F683FE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="FoodCreator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="36" Column="31" />
-      <File FileName="Point.cs" Line="55" Column="1" />
-      <File FileName="HorizontalLine.cs" Line="13" Column="39" />
-      <File FileName="VerticalLine.cs" Line="22" Column="1" />
-      <File FileName="Figure.cs" Line="8" Column="2" />
-      <File FileName="Snake.cs" Line="11" Column="9" />
-      <File FileName="Direction.cs" Line="17" Column="1" />
-      <File FileName="FoodCreator.cs" Line="2" Column="1" />
+      <File FileName="Program.cs" Line="36" Column="23" />
+      <File FileName="Point.cs" />
+      <File FileName="HorizontalLine.cs" />
+      <File FileName="VerticalLine.cs" />
+      <File FileName="Figure.cs" />
+      <File FileName="Snake.cs" />
+      <File FileName="Direction.cs" />
+      <File FileName="FoodCreator.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Snake" expanded="True">
             <Node name="Snake" expanded="True">
-              <Node name="FoodCreator.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
