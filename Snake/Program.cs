@@ -7,35 +7,48 @@ using System.Threading.Tasks;
 
 namespace Snake
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-			VerticalLine v1 = new VerticalLine(0, 10, 5, '%');
-			Draw(v1);
-	
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			//Console.SetBufferSize(80, 25);
+
+			Walls walls = new Walls(80, 24);
+			walls.Draw();
+
+			// Отрисовка точек			
 			Point p = new Point(4, 5, '*');
-			Figure fsnake = new Snake(p, 4, Direction.RIGHT);
-			Draw(fsnake);
-			Snake snake = (Snake)fsnake;
+			Snake snake = new Snake(p, 4, Direction.RIGHT);
+			snake.Draw();
 
-			HorizontalLine h1 = new HorizontalLine(0, 5, 6, '&');
+			FoodCreator foodCreator = new FoodCreator(80, 24, '$');
+			Point food = foodCreator.CreateFood();
+			food.Draw();
 
-			List<Figure> figures = new List<Figure>();
-			figures.Add(fsnake);
-			figures.Add(v1);
-			figures.Add(h1);
+			while (true)
+			{
+				if (walls.IsHit(snake) || snake.IsHitTail())
+				{
+					break;
+				}
+				if (snake.Eat(food))
+				{
+					food = foodCreator.CreateFood();
+					food.Draw();
+				}
+				else
+				{
+					snake.Move();
+				}
 
-			foreach(var f in figures)
-            {
-				f.Draw();
-            }
+				Thread.Sleep(100);
+				if (Console.KeyAvailable)
+				{
+					ConsoleKeyInfo key = Console.ReadKey();
+					snake.HandleKey(key.Key);
+				}
+			}
+
 		}
-
-		static void Draw(Figure figure)
-        {
-			figure.Draw();
-        }
-
-    }
+	}
 }
